@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Arimo&family=Gemunu+Libre&family=Signika+Negative:wght@300&display=swap");
+* {
+  font-family: "Arimo", sans-serif;
+  font-family: "Gemunu Libre", sans-serif;
+  font-family: "Signika Negative", sans-serif;
+  /* min-width: 480px; */
+}
+
+main {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(108, 146, 108);
+}
+
+.text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 3%;
+}
+h5 {
+  padding-top: 3%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 85%;
+  margin: 5rem auto;
+  background: #fff;
+  border-radius: 0.25rem;
+  padding: 2rem 2rem;
+  max-width: 920px;
+}
+
+.btn {
+  background: transparent;
+  border: transparent;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(33, 77, 44);
+  border-radius: 50%;
+  cursor: pointer;
+  margin-left: 1rem;
+  align-self: center;
+  min-width: 2rem;
+  /* size-adjust: 10px; */
+}
+
+.btn svg {
+  width: 30px;
+  height: 30px;
+}
+
+.content {
+  padding: 1rem 1.5rem;
+  border: 2px solid rgb(228, 225, 225);
+  margin-bottom: 1rem;
+  border-radius: 0.25rem;
+  box-shadow: 0 0px 25px rgba(0, 0, 0.6, 0.25);
+}
+
+.content header {
+  display: flex;
+  justify-content: space-between;
+}
